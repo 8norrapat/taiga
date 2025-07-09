@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Shopping Site</title>
+    <style>
+        body {
+            background-color: rgba(255, 165, 0, 0.2); /* Light orange transparent */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(255, 140, 0, 0.8);
+            padding: 20px;
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .clickable-image {
+            margin-top: 30px;
+        }
+
+        .clickable-image img {
+            width: 300px;
+            border: 2px solid #ffa500;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .clickable-image img:hover {
+            transform: scale(1.05);
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 40px;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .product h3 {
+            margin: 10px 0 5px;
+        }
+
+        .product p {
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shopping</h1>
+        <p>Find your favorite shopping websites </p>
+    </header>
+
+    <div class="clickable-image">
+        <!-- Replace the link and image source -->
+        <a href="https://example.com">
+            <img src="INSERT-YOUR-IMAGE-HERE.jpg" alt="Shop Now">
+        </a>
+      <p>Click the image to start shopping</p>
+    </div>
+
+    <section class="products">
+        <!-- Example product cards -->
+        <div class="product">
+            <img src="INSERT-PRODUCT-1.jpg" alt="Product 1">
+            <h3>Product Name 1</h3>
+            <p>$19.99</p>
+        </div>
+
+        <div class="product">
+            <img src="INSERT-PRODUCT-2.jpg" alt="Product 2">
+            <h3>Product Name 2</h3>
+            <p>$29.99</p>
+        </div>
+
+        <div class="product">
+            <img src="INSERT-PRODUCT-3.jpg" alt="Product 3">
+            <h3>Product Name 3</h3>
+            <p>$39.99</p>
+        </div>
+    </section>
+	    <section style="background-color: rgba(255, 140, 0, 0.1); padding: 30px; margin: 20px auto; width: 80%; border-radius: 12px;">
+        <h2 style="color: #cc6600;">Why Shop With Us?</h2>
+        <ul style="list-style-type: disc; text-align: center; max-width: 500px; margin: 0 auto;color: #cc6600; font-size: 16px;text-align: ">
+            <li>High-quality products at affordable prices</li>
+            <li>Fast and reliable shipping</li>
+            <li>Secure online payments</li>
+            <li>30-day return policy</li>
+            <li>Friendly customer support</li>
+        </ul>
+    </section>
+
+</body>
+</html>
