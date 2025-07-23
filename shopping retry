@@ -29,6 +29,73 @@
 	</style>
 </head>
 <body>
+<!-- Navigation Bar -->
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="#" class="nav-logo">taiga</a>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Docs</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f9f9f9;
+}
+.navbar {
+  background: #222;
+  padding: 0.5em 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.nav-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  padding: 0;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.05em;
+  transition: color 0.2s;
+}
+.nav-links a:hover {
+  color: #4fc3f7;
+}
+@media (max-width: 600px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+  }
+}
+</style>
 <a href="https://shopee.co.th/?uls_trackid=533mqsee00sc&utm_campaign=id_G4ZTMAiEei&utm_content=NEW0207----&utm_medium=affiliates&utm_source=an_15205100000&utm_term=d9tb1ypm3wr7&gad_source=1">
   <img src="shopee.png"id="shopee" alt="shopee">
 	<a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChsSEwiK5ZSaka-OAxULwDwCHYyOEAkYACICCAEQABoCc2Y&co=1&gclid=EAIaIQobChMIiuWUmpGvjgMVC8A8Ah2MjhAJEAAYASAAEgJCCPD_BwE&ohost=www.google.com&cid=CAESVuD2hYkX6eWJX0l9c0zgpE8tQeY3ZfU5ZNg3y3k8F8VQlAFwFqC7Lxq3N6mLQ2hM&sig=AOD64_0m2vJwJb9P1QLwC3m7K8pDk2Z6wQ&q&adurl&ved=2ahUKEwjK2o7Akq-OAxX3T2wGHTjPCc4Q0Qx6BAgFEAE">
